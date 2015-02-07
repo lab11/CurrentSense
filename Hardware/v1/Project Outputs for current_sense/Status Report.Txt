@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 1:39:07 AM On 6/16/2014
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Schematic Document [current_sense.SchDoc]
+   Generated File[Bill of Materials-current_sense.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 1:39:13 AM On 6/16/2014
