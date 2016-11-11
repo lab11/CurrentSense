@@ -6216,7 +6216,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </classes>
 <parts>
 <part name="FRAME1" library="lab11-frames" deviceset="LETTER_L_UMICH" device=""/>
-<part name="U1" library="chips" deviceset="MAX992" device="3H"/>
+<part name="U1" library="chips" deviceset="MAX992" device="3H">
+<attribute name="DIGIKEY" value="MAX9922EUB+TCT-ND"/>
+</part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="R7" library="resistor" deviceset="R-US_" device="R0805" value="120">
