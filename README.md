@@ -1,7 +1,7 @@
 CurrentSense
 ============
 
-<a href="media/current_sense_v3_1000x839.jpg" width="30%">
+<img src="media/current_sense_v3_1000x839.jpg" width="30%">
 
 CurrentSense is a tool for measuring current in embedded systems.
 
