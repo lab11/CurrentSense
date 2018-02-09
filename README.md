@@ -51,3 +51,7 @@ in which case you'll want the jumper in the high position as pictured.
  - Connect the GND of your target to the GND header.
    I usually connect target GND to the GND header at the bottom, whose label is
    occluded by the screw.
+ - Hook the scope probe to the test point at the top left (and GND anywhere)
+ 
+The rest of the board is the same idea as above. Choose a range, measure voltage,
+divide by the number on the board, get amperage.
