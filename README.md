@@ -33,3 +33,21 @@ Errata
 ------
 
 The 300 mA range doesn't seem to work on v3.
+
+----
+
+V2 Notes
+--------
+
+<img src="media/current_sense_v2.jpg" width="30%">
+
+You need a power selection jumper. You usually want to power the board externally,
+in which case you'll want the jumper in the high position as pictured.
+
+ - Connect external power (3.3-6V) to the EXT header at the top right.
+   I usually also connect the external power to the GND header up here.
+ - Connect the power supply for your target to VIN header.
+ - Connect the VCC of your target to the VCC header
+ - Connect the GND of your target to the GND header.
+   I usually connect target GND to the GND header at the bottom, whose label is
+   occluded by the screw.
