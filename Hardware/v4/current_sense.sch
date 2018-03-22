@@ -5995,8 +5995,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </library>
 </libraries>
 <attributes>
-<attribute name="AUTHOR" value="Brad Campbell"/>
-<attribute name="REV" value="v3"/>
+<attribute name="AUTHOR" value="Pat Pannuto"/>
+<attribute name="REV" value="v4"/>
 <attribute name="TITLE" value="Current Sense"/>
 </attributes>
 <variantdefs>
