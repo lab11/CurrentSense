@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="8.7.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5992,216 +5993,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </deviceset>
 </devicesets>
 </library>
-<library name="logos">
-<description>&lt;b&gt;LAB11&lt;/b&gt; - Logos for PCBs.</description>
-<packages>
-<package name="UMICH_SOLID_75MIL">
-<description>University of Michigan - Solid block M 0.075 in tall.</description>
-<rectangle x1="0" y1="1.3716" x2="0.8001" y2="1.905" layer="21"/>
-<wire x1="0.8001" y1="1.8923" x2="1.3335" y2="1.1811" width="0.0254" layer="21"/>
-<wire x1="1.3335" y1="1.1811" x2="1.8669" y2="1.8923" width="0.0254" layer="21"/>
-<wire x1="1.3335" y1="0.3429" x2="1.8923" y2="1.0668" width="0.0254" layer="21"/>
-<wire x1="1.3335" y1="0.3429" x2="0.7747" y2="1.0541" width="0.0254" layer="21"/>
-<rectangle x1="0.2032" y1="0.5334" x2="0.7874" y2="1.3716" layer="21"/>
-<rectangle x1="0" y1="0" x2="1.016" y2="0.5334" layer="21"/>
-<rectangle x1="1.651" y1="0" x2="2.667" y2="0.5334" layer="21"/>
-<rectangle x1="1.8796" y1="0.5334" x2="2.4638" y2="1.3716" layer="21"/>
-<rectangle x1="1.8669" y1="1.3716" x2="2.667" y2="1.905" layer="21"/>
-<polygon width="0.0254" layer="21">
-<vertex x="1.8669" y="1.8923"/>
-<vertex x="1.3335" y="1.1811"/>
-<vertex x="0.8001" y="1.8923"/>
-<vertex x="0.8001" y="1.0414"/>
-<vertex x="1.3335" y="0.3683"/>
-<vertex x="1.8796" y="1.0795"/>
-</polygon>
-</package>
-<package name="UMICH_SOLID_200MIL">
-<description>University of Michigan - Solid block M 0.200 in tall.</description>
-<rectangle x1="0" y1="3.6322" x2="2.1336" y2="5.08" layer="21"/>
-<wire x1="2.1336" y1="5.0673" x2="3.5433" y2="3.1623" width="0.0254" layer="21"/>
-<wire x1="3.5433" y1="3.1623" x2="4.9276" y2="5.0673" width="0.0254" layer="21"/>
-<wire x1="4.9657" y1="2.7559" x2="3.5306" y2="0.8763" width="0.0254" layer="21"/>
-<wire x1="3.5306" y1="0.8763" x2="2.1209" y2="2.7559" width="0.0254" layer="21"/>
-<rectangle x1="0.5334" y1="1.4478" x2="2.1082" y2="3.6322" layer="21"/>
-<rectangle x1="0" y1="0" x2="2.6924" y2="1.4478" layer="21"/>
-<rectangle x1="4.3942" y1="0" x2="7.0866" y2="1.4478" layer="21"/>
-<rectangle x1="4.9784" y1="1.4478" x2="6.5532" y2="3.6322" layer="21"/>
-<rectangle x1="4.9276" y1="3.6322" x2="7.0866" y2="5.08" layer="21"/>
-<polygon width="0.0254" layer="21">
-<vertex x="2.1209" y="2.7559"/>
-<vertex x="3.5306" y="0.8763"/>
-<vertex x="5.0165" y="2.8194"/>
-<vertex x="5.0165" y="5.0673"/>
-<vertex x="4.9276" y="5.0673"/>
-<vertex x="3.5433" y="3.1623"/>
-<vertex x="2.1336" y="5.0673"/>
-<vertex x="2.0701" y="5.0673"/>
-<vertex x="2.0701" y="2.7559"/>
-</polygon>
-</package>
-<package name="UMICH_SOLID_500MIL">
-<description>University of Michigan - Solid block M 0.500 in tall.</description>
-<rectangle x1="0" y1="0" x2="6.7056" y2="3.6068" layer="21"/>
-<rectangle x1="1.2954" y1="3.6068" x2="5.2578" y2="9.0932" layer="21"/>
-<rectangle x1="0" y1="9.0932" x2="5.334" y2="12.7" layer="21"/>
-<polygon width="0.0254" layer="21">
-<vertex x="5.334" y="12.6873"/>
-<vertex x="8.8519" y="7.8613"/>
-<vertex x="12.3444" y="12.6873"/>
-<vertex x="12.5603" y="12.6873"/>
-<vertex x="12.5603" y="6.9723"/>
-<vertex x="12.4587" y="6.9723"/>
-<vertex x="8.8392" y="2.1463"/>
-<vertex x="5.2705" y="6.9723"/>
-<vertex x="5.0419" y="6.9723"/>
-<vertex x="5.0546" y="12.6873"/>
-</polygon>
-<rectangle x1="12.573" y1="9.0932" x2="17.7292" y2="12.7" layer="21"/>
-<rectangle x1="12.4714" y1="3.6068" x2="16.4338" y2="9.0932" layer="21"/>
-<rectangle x1="11.0236" y1="0" x2="17.7292" y2="3.6068" layer="21"/>
-</package>
-<package name="UMICH_SOLID_1000MIL">
-<description>University of Michigan - Solid block M 1.000 in tall.</description>
-<rectangle x1="0" y1="0" x2="13.4112" y2="7.2136" layer="21"/>
-<rectangle x1="2.5908" y1="7.2136" x2="10.5156" y2="18.1864" layer="21"/>
-<rectangle x1="0" y1="18.1864" x2="10.668" y2="25.4" layer="21"/>
-<polygon width="0.0508" layer="21">
-<vertex x="10.668" y="25.3746"/>
-<vertex x="17.7038" y="15.7226"/>
-<vertex x="24.6888" y="25.3746"/>
-<vertex x="25.146" y="25.3746"/>
-<vertex x="25.146" y="13.9446"/>
-<vertex x="24.9174" y="13.9446"/>
-<vertex x="17.6784" y="4.2926"/>
-<vertex x="10.541" y="13.9446"/>
-<vertex x="10.1854" y="13.9446"/>
-<vertex x="10.1854" y="25.3746"/>
-</polygon>
-<rectangle x1="22.0472" y1="0" x2="35.4584" y2="7.2136" layer="21"/>
-<rectangle x1="24.9428" y1="7.2136" x2="32.8676" y2="18.1864" layer="21"/>
-<rectangle x1="25.146" y1="18.1864" x2="35.4584" y2="25.4" layer="21"/>
-</package>
-<package name="UMICH_SOLID_350MIL">
-<description>University of Michigan - Solid block M 0.350 in tall.</description>
-<rectangle x1="0" y1="6.3754" x2="3.7338" y2="8.89" layer="21"/>
-<rectangle x1="0.9144" y1="2.5146" x2="3.683" y2="6.3754" layer="21"/>
-<rectangle x1="0" y1="0" x2="4.699" y2="2.5146" layer="21"/>
-<rectangle x1="7.7216" y1="0" x2="12.4206" y2="2.5146" layer="21"/>
-<rectangle x1="8.7376" y1="2.5146" x2="11.5062" y2="6.3754" layer="21"/>
-<rectangle x1="8.6614" y1="6.3754" x2="12.4206" y2="8.89" layer="21"/>
-<polygon width="0.0254" layer="21">
-<vertex x="3.7338" y="8.8773"/>
-<vertex x="6.1976" y="5.5245"/>
-<vertex x="8.6614" y="8.8773"/>
-<vertex x="8.8138" y="8.8773"/>
-<vertex x="8.8138" y="4.8641"/>
-<vertex x="8.7249" y="4.8641"/>
-<vertex x="6.1976" y="1.5113"/>
-<vertex x="3.6957" y="4.8641"/>
-<vertex x="3.5814" y="4.8641"/>
-<vertex x="3.5941" y="8.8773"/>
-</polygon>
-</package>
-<package name="UMICH_SOLID_100MIL">
-<rectangle x1="0" y1="1.8161" x2="1.0541" y2="2.54" layer="21"/>
-<rectangle x1="0.2667" y1="0.7239" x2="1.0541" y2="1.8161" layer="21"/>
-<rectangle x1="0" y1="0" x2="1.3462" y2="0.7239" layer="21"/>
-<rectangle x1="2.1971" y1="0" x2="3.5433" y2="0.7239" layer="21"/>
-<rectangle x1="2.4892" y1="0.7239" x2="3.2766" y2="1.8161" layer="21"/>
-<rectangle x1="2.4892" y1="1.8161" x2="3.5433" y2="2.54" layer="21"/>
-<polygon width="0" layer="21">
-<vertex x="2.4892" y="1.37795"/>
-<vertex x="1.7653" y="0.43815"/>
-<vertex x="1.0541" y="1.37795"/>
-<vertex x="1.0541" y="2.54"/>
-<vertex x="1.7653" y="1.6002"/>
-<vertex x="2.4892" y="2.54"/>
-</polygon>
-</package>
-<package name="UMICH_SOLID_50MIL">
-<rectangle x1="-0.885825" y1="0.27305" x2="-0.358775" y2="0.635" layer="21"/>
-<rectangle x1="-0.752475" y1="-0.27305" x2="-0.358775" y2="0.27305" layer="21"/>
-<rectangle x1="-0.885825" y1="-0.635" x2="-0.212725" y2="-0.27305" layer="21"/>
-<rectangle x1="0.212725" y1="-0.635" x2="0.885825" y2="-0.27305" layer="21"/>
-<rectangle x1="0.358775" y1="-0.27305" x2="0.752475" y2="0.27305" layer="21"/>
-<rectangle x1="0.358775" y1="0.27305" x2="0.885825" y2="0.635" layer="21"/>
-<polygon width="0" layer="21">
-<vertex x="0.358775" y="0.053975"/>
-<vertex x="-0.003175" y="-0.415925"/>
-<vertex x="-0.358775" y="0.053975"/>
-<vertex x="-0.358775" y="0.635"/>
-<vertex x="-0.003175" y="0.1651"/>
-<vertex x="0.358775" y="0.635"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="UMICH_SOLID">
-<rectangle x1="0" y1="7.2644" x2="4.2672" y2="10.16" layer="94"/>
-<rectangle x1="1.0668" y1="2.8956" x2="4.2164" y2="7.2644" layer="94"/>
-<rectangle x1="0" y1="0" x2="5.3848" y2="2.8956" layer="94"/>
-<rectangle x1="8.7884" y1="0" x2="14.1732" y2="2.8956" layer="94"/>
-<rectangle x1="9.9568" y1="2.8956" x2="13.1064" y2="7.2644" layer="94"/>
-<rectangle x1="9.906" y1="7.2644" x2="14.1732" y2="10.16" layer="94"/>
-<polygon width="0.0508" layer="94">
-<vertex x="4.2672" y="10.1346"/>
-<vertex x="7.0866" y="6.3246"/>
-<vertex x="9.906" y="10.1346"/>
-<vertex x="10.0838" y="10.1346"/>
-<vertex x="10.0838" y="5.5626"/>
-<vertex x="9.9568" y="5.5626"/>
-<vertex x="7.0612" y="1.7526"/>
-<vertex x="4.2164" y="5.5626"/>
-<vertex x="4.2418" y="10.1346"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="UMICH_SOLID" prefix="LOGO">
-<gates>
-<gate name="G$1" symbol="UMICH_SOLID" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_SMALL" package="UMICH_SOLID_75MIL">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_MEDIUM" package="UMICH_SOLID_200MIL">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_HUGE" package="UMICH_SOLID_500MIL">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_GIANT" package="UMICH_SOLID_1000MIL">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_LARGE" package="UMICH_SOLID_350MIL">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_SMALL+" package="UMICH_SOLID_100MIL">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_TINY" package="UMICH_SOLID_50MIL">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 <attribute name="AUTHOR" value="Brad Campbell"/>
@@ -6296,7 +6087,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="S1" library="switches" deviceset="RM100772BCB" device="">
 <attribute name="DIGIKEY" value="CKN10705-ND"/>
 </part>
-<part name="LOGO2" library="logos" deviceset="UMICH_SOLID" device="_MEDIUM"/>
 </parts>
 <sheets>
 <sheet>
@@ -6436,7 +6226,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="S1" gate="G$1" x="170.18" y="152.4">
 <attribute name="DIGIKEY" x="170.18" y="152.4" size="1.27" layer="96" align="center-left" display="off"/>
 </instance>
-<instance part="LOGO2" gate="G$1" x="231.14" y="172.72"/>
 </instances>
 <busses>
 </busses>
@@ -6648,49 +6437,49 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="TP7" gate="G$1" pin="TESTPOINT"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="RS-_100UA" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="160.02" x2="177.8" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="RS-_1MA" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="157.48" x2="175.26" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="B"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="RS-_10MA" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="154.94" x2="177.8" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="RS-_30MA" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="152.4" x2="175.26" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="D"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="RS-_60MA" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="149.86" x2="177.8" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="E"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="RS-_100MA" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="147.32" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="F"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="SENSE_FB" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="86.36" x2="213.36" y2="83.82" width="0.1524" layer="91"/>
@@ -6751,7 +6540,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <label x="17.78" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="LDO_BYPASS" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="127" y1="132.08" x2="127" y2="139.7" width="0.1524" layer="91"/>
@@ -6830,7 +6619,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <label x="35.56" y="58.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="RS-_300MA" class="0">
 <segment>
 <pinref part="S1" gate="G$1" pin="G"/>
 <pinref part="R1" gate="G$1" pin="1"/>
